@@ -26,6 +26,7 @@ object FXAAMain {
     }
 
     def init {
+        // TODO: Remove me - testing things are ignored.
         new DirectoryResourceBundle("target/", true)
         val w: Int = 1024
         val h: Int = 768
