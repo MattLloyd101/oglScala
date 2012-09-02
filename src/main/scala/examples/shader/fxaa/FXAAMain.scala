@@ -1,20 +1,11 @@
 package examples.shader.fxaa
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 28/07/12
- * Time: 15:17
- * To change this template use File | Settings | File Templates.
- */
-
 import org.lwjgl._
 import opengl._
 import GL11._
 import com.mattlloyd.util.KeyboardUtil
 import com.mattlloyd.util.KeyboardUtil.KeyState
 import com.mattlloyd.opengl.util.FPSCounter
-import examples.shader.fxaa.SmoothBox
 import com.mattlloyd.opengl.data.resources.DirectoryResourceBundle
 import org.lwjgl.util.glu.GLU
 
