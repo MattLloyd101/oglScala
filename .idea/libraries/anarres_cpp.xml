@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="anarres-cpp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/java/anarres-cpp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/java/gnu.getopt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
