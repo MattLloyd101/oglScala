@@ -2,29 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80bd08b8-0445-43f9-ade8-86c6ab2d045b" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\workspace\oglScala\.idea\codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\oglScala\.idea\libraries\anarres_cpp.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\oglScala\.idea\scala_compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\oglScala\oglScala.iml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\oglScala\target\classes.timestamp" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\oglScala\target\classes\com\mattlloyd\spygame\Main$$anonfun$init$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\oglScala\target\classes\com\mattlloyd\spygame\Main$.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\oglScala\target\classes\com\mattlloyd\spygame\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\oglScala\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\oglScala\target\spy-game-1.0.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/basic/shaders/basic.frag.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/basic/shaders/basic.frag.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/basic/shaders/basic.vert.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/basic/shaders/basic.vert.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/FXAAMain$$anonfun$init$1.class" afterPath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/FXAAMain$$anonfun$init$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/FXAAMain$.class" afterPath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/FXAAMain$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/SmoothBox.class" afterPath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/SmoothBox.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/shaders/fxaa.frag.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/shaders/fxaa.frag.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/shaders/fxaa.vert.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/shaders/fxaa.vert.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.frag.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.frag.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.geom.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.geom.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.tessControl.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.tessControl.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.tessEval.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.tessEval.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.vert.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.vert.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
@@ -50,8 +27,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/examples/shader/fxaa/FXAAMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/examples/shader/fxaa/FXAAMain.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oglScala.iml" afterPath="$PROJECT_DIR$/oglScala.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/basic/shaders/basic.frag.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/basic/shaders/basic.frag.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/basic/shaders/basic.vert.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/basic/shaders/basic.vert.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/shaders/fxaa.frag.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/shaders/fxaa.frag.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/shaders/fxaa.vert.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/fxaa/shaders/fxaa.vert.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.frag.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.frag.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.geom.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.geom.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.tessControl.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.tessControl.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.tessEval.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.tessEval.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.vert.glsl" afterPath="$PROJECT_DIR$/target/classes/examples/shader/tess/shaders/tess.vert.glsl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/natives/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/natives/META-INF/MANIFEST.MF" />
     </list>
     <ignored path="spy-game.iws" />
@@ -149,8 +134,10 @@
       <file leaf-file-name="FXAAMain.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/fxaa/FXAAMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="60" selection-start="270" selection-end="270" vertical-scroll-proportion="0.13751264">
-              <folding />
+            <state line="27" column="14" selection-start="669" selection-end="669" vertical-scroll-proportion="0.46410516">
+              <folding>
+                <element signature="e#30#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -953,12 +940,16 @@
       <created>1346628306611</created>
       <updated>1346628306611</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Breaking things.">
+      <created>1346629510254</created>
+      <updated>1346629510254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.17913386" order="3" side_tool="false" content_ui="tabs" />
@@ -974,7 +965,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20630679" sideWeight="0.25098425" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19722074" sideWeight="0.25098425" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19722074" sideWeight="0.25098425" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.74901575" sideWeight="0.49599144" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1125,8 +1116,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/fxaa/FXAAMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="60" selection-start="270" selection-end="270" vertical-scroll-proportion="0.13751264">
-          <folding />
+        <state line="27" column="14" selection-start="669" selection-end="669" vertical-scroll-proportion="0.46410516">
+          <folding>
+            <element signature="e#30#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
