@@ -13,7 +13,6 @@ class SmoothBox extends Renderable[Unit] with Initable[Unit] with Updatable[Unit
     val pos = shaderProgram.pos
     val rot = shaderProgram.rot
 
-    // test commit.
     def init {
 
     }
