@@ -1,5 +1,6 @@
 package com.mattlloyd.opengl.data.immutable.vector
 
+import java.nio.FloatBuffer
 
 object Vector2f {
     def apply(x:Float = 0.0f, y:Float = 0.0f) = new Vector2f(x, y)

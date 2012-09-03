@@ -1,4 +1,9 @@
-package examples.shader.basic; 
+package examples.shader.basic;
+import org.lwjgl.opengl.GL11;
+import org.lwjgl.opengl.Display;
+import org.lwjgl.opengl.DisplayMode;
+import org.lwjgl.util.glu.GLU;
+
 public class BasicShaderExample {
 
     private boolean done=false; //game runs until done is set to true
