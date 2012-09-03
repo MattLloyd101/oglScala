@@ -12,11 +12,7 @@ object ShaderResource extends ResourceConverter[File, String] {
 
 class ShaderResource(shader:File) extends TextFileResource(shader) {
 
-    def processInclude(line:String):String = {
-        val out = ResourceManager.getResourceById[String](line.substring(line.indexOf("\"")+ 1, line.lastIndexOf("\""))).loadAndGet
-        println(out)
-        out
-    }
+    def processInclude(line:String):String = ResourceManager.getResourceById[String](line.substring(line.indexOf("\"")+ 1, line.lastIndexOf("\""))).loadAndGet
 
     // OpenGL doesn't allow for #include type includes.
     // Instead were just dumping the code in there by pre-processing the source.
