@@ -5,13 +5,7 @@ import com.mattlloyd.opengl.shader.uniform._
 import com.mattlloyd.opengl.data.resources.ResourceImplicits._
 import scala.Some
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 24/08/12
- * Time: 20:24
- * To change this template use File | Settings | File Templates.
- */
+
 class BasicShader extends ShaderProgram {
 
     override lazy val vertShader = Some(new VertexShader("target/classes/examples/shader/basic/shaders/basic.vert.glsl"))

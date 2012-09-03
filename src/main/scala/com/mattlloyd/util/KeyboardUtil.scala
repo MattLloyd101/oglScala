@@ -3,13 +3,7 @@ package com.mattlloyd.util
 import org.lwjgl.input.Keyboard
 import signal.Signal
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 29/07/12
- * Time: 00:14
- * To change this template use File | Settings | File Templates.
- */
+
 
 object KeyboardUtil {
 

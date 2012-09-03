@@ -2,13 +2,7 @@ package com.mattlloyd.opengl.shader.uniform
 
 import com.mattlloyd.opengl.shader.{ShaderProgram, Shaded, Shader}
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 29/07/12
- * Time: 16:51
- * To change this template use File | Settings | File Templates.
- */
+
 
 object RGBAUniform {
     def apply(shader:ShaderProgram, name:String, defaultColour:(Double, Double, Double, Double) = defaultColour) = new RGBAUniform(shader, name, defaultColour)

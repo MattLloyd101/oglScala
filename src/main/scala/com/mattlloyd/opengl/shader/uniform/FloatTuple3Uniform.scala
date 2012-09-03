@@ -5,13 +5,7 @@ import java.nio.{FloatBuffer, IntBuffer}
 import org.lwjgl.opengl.ARBShaderObjects._
 import org.lwjgl.BufferUtils
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 12/08/12
- * Time: 12:45
- * To change this template use File | Settings | File Templates.
- */
+
 
 class FloatTuple3Uniform(shader:ShaderProgram, name:String, defaultValue:(Float, Float, Float)) extends Tuple3Uniform[FloatBuffer, Float](shader, name, defaultValue) {
 

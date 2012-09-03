@@ -3,13 +3,7 @@ package com.mattlloyd.opengl.util
 import compat.Platform
 import collection.mutable
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 23/08/12
- * Time: 20:54
- * To change this template use File | Settings | File Templates.
- */
+
 object FPSCounter {
 
     val MAX_SAMPLES = 2

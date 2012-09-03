@@ -1,12 +1,6 @@
 package com.mattlloyd.opengl.data.immutable.matrix
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 13/08/12
- * Time: 22:45
- * To change this template use File | Settings | File Templates.
- */
+
 
 object Matrix3x3 {
     def determinant3x3(t00: Double, t01: Double, t02: Double,

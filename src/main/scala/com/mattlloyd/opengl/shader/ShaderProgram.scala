@@ -9,13 +9,7 @@ import scala.Some
 import examples.shader.basic.shader.BasicShader
 import java.lang.reflect.Method
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 24/08/12
- * Time: 19:37
- * To change this template use File | Settings | File Templates.
- */
+
 class ShaderProgram extends ShaderParameters {
 
     val preInit = Signal[Unit]()

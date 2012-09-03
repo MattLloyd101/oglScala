@@ -3,13 +3,7 @@ package com.mattlloyd.opengl.data.resources
 import java.io.File
 import io.{Codec, Source}
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 27/08/12
- * Time: 14:36
- * To change this template use File | Settings | File Templates.
- */
+
 class TextFileResource(file:File)(implicit codec: Codec) extends FileResource[String](file) {
 
     protected var text:Option[String] = None

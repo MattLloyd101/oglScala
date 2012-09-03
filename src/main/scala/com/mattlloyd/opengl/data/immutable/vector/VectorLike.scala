@@ -3,13 +3,7 @@ package com.mattlloyd.opengl.data.immutable.vector
 import math._
 import java.nio.FloatBuffer
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 18/08/12
- * Time: 23:52
- * To change this template use File | Settings | File Templates.
- */
+
 
 trait VectorLike[T <: VectorLike[T]] {
     def length = sqrt(lengthSquared)

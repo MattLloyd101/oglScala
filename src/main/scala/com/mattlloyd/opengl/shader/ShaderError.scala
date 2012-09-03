@@ -4,13 +4,7 @@ import java.nio.{ByteBuffer, IntBuffer}
 import org.lwjgl.BufferUtils
 import org.lwjgl.opengl.ARBShaderObjects
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 29/07/12
- * Time: 14:29
- * To change this template use File | Settings | File Templates.
- */
+
 
 object ShaderError {
 

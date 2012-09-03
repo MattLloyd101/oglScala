@@ -5,13 +5,7 @@ import ARBShaderObjects._
 import java.nio.Buffer
 import com.mattlloyd.opengl.shader.{ShaderProgram, Shaded}
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 29/07/12
- * Time: 15:07
- * To change this template use File | Settings | File Templates.
- */
+
 
 abstract class Uniform[Internal <: Buffer, External](parentShader: ShaderProgram, name: String, defaultValue:External) extends AbstractUniform(parentShader, name) {
 

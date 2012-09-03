@@ -8,13 +8,7 @@ import org.lwjgl.BufferUtils
 import org.lwjgl.opengl.{GL15, ARBBufferObject, ARBVertexBufferObject}
 import com.mattlloyd.opengl.Initable
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 12/08/12
- * Time: 11:49
- * To change this template use File | Settings | File Templates.
- */
+
 
 object VAOAccessType extends Enumeration {
     type VAOAccessType = Value

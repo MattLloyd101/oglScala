@@ -6,13 +6,7 @@ import ARBShaderObjects._
 import java.nio.IntBuffer
 import org.lwjgl.BufferUtils
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 12/08/12
- * Time: 12:08
- * To change this template use File | Settings | File Templates.
- */
+
 
 object IntUniform {
     def apply(parentShader: ShaderProgram, name: String, defaultValue:Int) = new IntUniform(parentShader, name, defaultValue)

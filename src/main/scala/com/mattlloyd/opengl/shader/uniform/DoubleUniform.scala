@@ -5,13 +5,7 @@ import org.lwjgl.opengl.ARBShaderObjects._
 import java.nio.{IntBuffer, FloatBuffer}
 import org.lwjgl.BufferUtils
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 12/08/12
- * Time: 12:10
- * To change this template use File | Settings | File Templates.
- */
+
 object DoubleUniform {
     def apply(parentShader: ShaderProgram, name: String, defaultValue:Int) = new DoubleUniform(parentShader, name, defaultValue)
 }

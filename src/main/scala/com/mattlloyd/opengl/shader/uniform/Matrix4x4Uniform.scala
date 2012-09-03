@@ -5,13 +5,7 @@ import com.mattlloyd.opengl.data.immutable.matrix.Matrix4x4
 import com.mattlloyd.opengl.shader.Shaded
 import org.lwjgl.opengl.ARBShaderObjects._
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 12/08/12
- * Time: 18:16
- * To change this template use File | Settings | File Templates.
- */
+
 
 //class Matrix4x4Uniform(parentShader: Shaded, name: String, defaultValue:Matrix4x4 = Matrix4x4.identity, var transpose:Boolean = false) extends Uniform[FloatBuffer,Matrix4x4](parentShader, name, defaultValue) {
 //

@@ -10,13 +10,7 @@ import uniform.Uniform
 import com.mattlloyd.opengl.Initable
 import com.mattlloyd.opengl.data.resources.{Resource, ShaderResource}
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 29/07/12
- * Time: 14:16
- * To change this template use File | Settings | File Templates.
- */
+
 
 object ShaderType extends Enumeration {
     type ShaderType = Value

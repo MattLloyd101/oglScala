@@ -1,15 +1,9 @@
 package com.mattlloyd.opengl.data.resources
 
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 27/08/12
- * Time: 13:14
- * To change this template use File | Settings | File Templates.
- */
+
 object ResourceImplicits {
-    implicit def String2Resource[T](value : String):Resource[T] = ResourceManager.getResourceById(value).get.asInstanceOf[Resource[T]]
+    implicit def String2Resource[T](value : String):Resource[T] = ResourceManager.getResourceByIdSafe(value).get.asInstanceOf[Resource[T]]
 }
 object ResourceManager {
 
@@ -25,28 +19,30 @@ object ResourceManager {
 
     var resources:Bundle = new Bundle()
 
-    def getBundleById(id:String):Option[Bundle] = getById(id) match {
+    def getBundleById[T](id:String):Option[Bundle] = getById[T](id) match {
         case Some(Left(resource)) => Some(resource)
         case _ => None
     }
 
-    def getResourceById(id:String) = getById(id) match {
+    def getResourceById[T](id:String) = getResourceByIdSafe[T](id).get
+
+    def getResourceByIdSafe[T](id:String) = getById[T](id) match {
         case Some(Right(resource)) => Some(resource)
         case _ => None
     }
 
     def pathFromId(id:String):List[String] = id.split("/").toList
 
-    def get(id:String):Option[Either[Bundle, Resource[_]]] = getById(id)
+    def get[T](id:String):Option[Either[Bundle, Resource[T]]] = getById[T](id)
 
     // locks on resources once found.
-    def getById(id:String):Option[Either[Bundle, Resource[_]]] = getByPath(pathFromId(id))
+    def getById[T](id:String):Option[Either[Bundle, Resource[T]]] = getByPath(pathFromId(id))
 
-    def getByPath(path:Seq[String]):Option[Either[Bundle, Resource[_]]] = {
-        path.foldLeft(Some(Left(resources)):Option[Either[Bundle, Resource[_]]]) { (resources, currPath) =>
+    def getByPath[T](path:Seq[String]):Option[Either[Bundle, Resource[T]]] = {
+        path.foldLeft(Some(Left(resources)):Option[Either[Bundle, Resource[T]]]) { (resources, currPath) =>
             resources match {
                 // traverse down
-                case Some(Left(bundle)) => bundle.get(currPath)
+                case Some(Left(bundle)) => bundle.get(currPath).asInstanceOf[Option[Either[Bundle,Resource[T]]]]
                 // found resource
                 case option@Some(Right(_)) => option
                 case _ => None

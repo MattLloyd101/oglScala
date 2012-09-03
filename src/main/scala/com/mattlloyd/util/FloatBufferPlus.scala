@@ -1,12 +1,6 @@
 package com.mattlloyd.util
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 12/08/12
- * Time: 18:50
- * To change this template use File | Settings | File Templates.
- */
+
 
 import scala.collection._
 import scala.collection.generic._

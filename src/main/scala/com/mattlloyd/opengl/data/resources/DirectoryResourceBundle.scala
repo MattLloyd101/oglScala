@@ -1,13 +1,7 @@
 package com.mattlloyd.opengl.data.resources
 
 import java.io.File
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 27/08/12
- * Time: 14:07
- * To change this template use File | Settings | File Templates.
- */
+
 object DirectoryResourceBundle {
     var fileConverters:Seq[ResourceConverter[File, _]] = ShaderResource :: Nil
 }

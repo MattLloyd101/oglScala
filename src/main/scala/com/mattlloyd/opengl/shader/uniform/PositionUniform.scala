@@ -2,13 +2,7 @@ package com.mattlloyd.opengl.shader.uniform
 
 import com.mattlloyd.opengl.shader.{ShaderProgram, Shaded, Shader}
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 29/07/12
- * Time: 16:11
- * To change this template use File | Settings | File Templates.
- */
+
 object PositionUniform {
     val positionUniformName = "position"
     val defaultPosition = (0., 0., -5.)

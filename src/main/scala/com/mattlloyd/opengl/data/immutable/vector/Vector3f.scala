@@ -1,24 +1,9 @@
-
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 18/08/12
- * Time: 23:50
- * To change this template use File | Settings | File Templates.
- */
-
 package com.mattlloyd.opengl.data.immutable.vector
 
 import scala.math._
 import java.nio.FloatBuffer
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 13/08/12
- * Time: 22:07
- * To change this template use File | Settings | File Templates.
- */
+
 object Vector3f {
     def apply(x:Float = 0.0f, y:Float = 0.0f, z:Float = 0.0f) = new Vector3f(x, y, z)
     def apply(buff:FloatBuffer) = new Vector3f(buff.get, buff.get, buff.get)

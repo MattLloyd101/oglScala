@@ -1,23 +1,4 @@
-package examples.shader.basic; /**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 29/07/12
- * Time: 11:49
- * To change this template use File | Settings | File Templates.
- */
-
-
-import org.lwjgl.opengl.GL11;
-import org.lwjgl.opengl.Display;
-import org.lwjgl.opengl.DisplayMode;
-import org.lwjgl.util.glu.GLU;
-
-/*
-* Sets up the Display, the GL context, and runs the main game
-loop.
-*
-* @author Stephen Jones
-*/
+package examples.shader.basic; 
 public class BasicShaderExample {
 
     private boolean done=false; //game runs until done is set to true

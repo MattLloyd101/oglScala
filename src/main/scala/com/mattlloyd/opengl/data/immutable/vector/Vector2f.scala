@@ -1,25 +1,6 @@
 package com.mattlloyd.opengl.data.immutable.vector
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 18/08/12
- * Time: 23:50
- * To change this template use File | Settings | File Templates.
- */
 
-
-
-import scala.math._
-import java.nio.FloatBuffer
-
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 13/08/12
- * Time: 22:07
- * To change this template use File | Settings | File Templates.
- */
 object Vector2f {
     def apply(x:Float = 0.0f, y:Float = 0.0f) = new Vector2f(x, y)
     def apply(buff:FloatBuffer) = new Vector2f(buff.get, buff.get)

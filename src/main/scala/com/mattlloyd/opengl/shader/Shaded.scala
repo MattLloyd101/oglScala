@@ -8,13 +8,7 @@ import org.lwjgl.opengl.GL11._
 import org.lwjgl.opengl.{ARBFragmentShader, ARBVertexShader}
 import com.mattlloyd.opengl.{Renderable, Initable}
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 12/08/12
- * Time: 10:54
- * To change this template use File | Settings | File Templates.
- */
+
 
 trait Shaded extends ShaderParameters {
     self: Renderable[_] =>

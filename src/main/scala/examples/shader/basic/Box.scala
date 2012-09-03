@@ -7,13 +7,7 @@ import com.mattlloyd.opengl.VBO.VBOObject
 import com.mattlloyd.opengl.{Renderable, Updatable, Initable}
 import scala.math._
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 29/07/12
- * Time: 14:56
- * To change this template use File | Settings | File Templates.
- */
+
 
 class Box extends Renderable[Unit] with Initable[Unit] with Updatable[Unit] with Shaded with VBOObject {
 

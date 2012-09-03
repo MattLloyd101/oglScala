@@ -4,13 +4,7 @@ import org.lwjgl.opengl.ARBShaderObjects._
 import com.mattlloyd.opengl.shader.ShaderProgram
 import java.lang.reflect.Method
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 24/08/12
- * Time: 20:13
- * To change this template use File | Settings | File Templates.
- */
+
 object AbstractUniform {
     def isUniformField(field:Method) = {
         def testType(ttype: Class[_]):Boolean = (ttype, ttype.getSuperclass) match {

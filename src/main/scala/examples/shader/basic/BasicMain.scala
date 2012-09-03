@@ -1,12 +1,6 @@
 package examples.shader.basic
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 28/07/12
- * Time: 15:17
- * To change this template use File | Settings | File Templates.
- */
+
 
 import org.lwjgl._
 import opengl._

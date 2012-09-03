@@ -3,13 +3,7 @@ package com.mattlloyd.opengl.data.resources
 import java.io.File
 import io.Source
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 27/08/12
- * Time: 14:13
- * To change this template use File | Settings | File Templates.
- */
+
 object ShaderResource extends ResourceConverter[File, String] {
     override def convert(obj: File) = new ShaderResource(obj)
 
@@ -19,7 +13,9 @@ object ShaderResource extends ResourceConverter[File, String] {
 class ShaderResource(shader:File) extends TextFileResource(shader) {
 
     def processInclude(line:String):String = {
-        Source.fromFile(line.substring(line.indexOf("\"")+ 1, line.lastIndexOf("\""))).getLines().mkString("\r\n")
+        val out = ResourceManager.getResourceById[String](line.substring(line.indexOf("\"")+ 1, line.lastIndexOf("\""))).loadAndGet
+        println(out)
+        out
     }
 
     // OpenGL doesn't allow for #include type includes.

@@ -4,13 +4,7 @@ import com.mattlloyd.opengl.shader.{ShaderProgram, Shaded, Shader}
 import java.nio.{Buffer, IntBuffer, FloatBuffer}
 import org.lwjgl.opengl.ARBShaderObjects._
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 29/07/12
- * Time: 16:33
- * To change this template use File | Settings | File Templates.
- */
+
 
 abstract class Tuple4Uniform[Internal <: Buffer, T](shader:ShaderProgram, name:String, defaultValue: (T, T, T, T)) extends Uniform[Internal, (T, T, T, T)](shader, name, defaultValue) {
 

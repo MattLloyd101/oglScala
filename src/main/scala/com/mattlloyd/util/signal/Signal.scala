@@ -2,13 +2,7 @@ package com.mattlloyd.util.signal
 
 import collection.immutable.Queue
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 28/07/12
- * Time: 22:02
- * To change this template use File | Settings | File Templates.
- */
+
 
 object Signal {
     def apply[Arg]() = new Signal[Arg]

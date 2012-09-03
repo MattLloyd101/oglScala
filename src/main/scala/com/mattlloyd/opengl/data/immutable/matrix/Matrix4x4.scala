@@ -3,13 +3,7 @@ package com.mattlloyd.opengl.data.immutable.matrix
 import java.nio.FloatBuffer
 import com.mattlloyd.opengl.data.immutable.vector._
 
-/**
- * Created with IntelliJ IDEA.
- * User: Matt
- * Date: 12/08/12
- * Time: 18:17
- * To change this template use File | Settings | File Templates.
- */
+
 object Matrix4x4 {
     lazy val zero: Matrix4x4 = new Matrix4x4()
     lazy val identity: Matrix4x4 = new Matrix4x4(m00 = 1, m11 = 1, m22 = 1, m33 = 1)
