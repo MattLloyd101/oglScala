@@ -28,7 +28,7 @@ object BasicMain {
     }
 
     def init {
-        new DirectoryResourceBundle("target/", true)
+        new DirectoryResourceBundle("target", true)
         val w: Int = 1024
         val h: Int = 768
 
@@ -44,18 +44,18 @@ object BasicMain {
                 System.exit(0)
             }
         }
-        glViewport(0, 0, w, h)
-        glMatrixMode(GL_PROJECTION)
-        glLoadIdentity
-        GLU.gluPerspective(45.0f, (w.asInstanceOf[Float] / h.asInstanceOf[Float]), 0.1f, 100.0f)
-        glMatrixMode(GL_MODELVIEW)
-        glLoadIdentity
-        glShadeModel(GL_SMOOTH)
-        glClearColor(0.0f, 0.0f, 0.0f, 0.0f)
-        glClearDepth(1.0f)
-        glEnable(GL_DEPTH_TEST)
-        glDepthFunc(GL_LEQUAL)
-        glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST)
+//        glViewport(0, 0, w, h)
+//        glMatrixMode(GL_PROJECTION)
+//        glLoadIdentity
+//        GLU.gluPerspective(45.0f, (w.asInstanceOf[Float] / h.asInstanceOf[Float]), 0.1f, 100.0f)
+//        glMatrixMode(GL_MODELVIEW)
+//        glLoadIdentity
+//        glShadeModel(GL_SMOOTH)
+//        glClearColor(0.0f, 0.0f, 0.0f, 0.0f)
+//        glClearDepth(1.0f)
+//        glEnable(GL_DEPTH_TEST)
+//        glDepthFunc(GL_LEQUAL)
+//        glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST)
 
         box = new Box
 

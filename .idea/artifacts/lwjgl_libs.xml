@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="lwjgl libs">
+    <output-path>$PROJECT_DIR$/target/libs</output-path>
+    <root id="root">
+      <element id="library" level="project" name="Maven: org.lwjgl.lwjgl:lwjgl:2.8.2" />
+      <element id="library" level="project" name="Maven: org.lwjgl.lwjgl:lwjgl-platform:natives-linux:2.8.2" />
+      <element id="library" level="project" name="Maven: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.8.2" />
+      <element id="library" level="project" name="Maven: org.lwjgl.lwjgl:lwjgl-platform:natives-windows:2.8.2" />
+    </root>
+  </artifact>
+</component>

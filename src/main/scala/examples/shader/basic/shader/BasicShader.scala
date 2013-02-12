@@ -11,9 +11,8 @@ class BasicShader extends ShaderProgram {
     override lazy val vertShader = Some(new VertexShader("target/classes/examples/shader/basic/shaders/basic.vert.glsl"))
     override lazy val fragShader = Some(new FragmentShader("target/classes/examples/shader/basic/shaders/basic.frag.glsl"))
 
-    val newCol = RGBAUniform(this, "newCol")
-    val intensity = DoubleUniform(this, "intensity", 1)
-    val pos = PositionUniform(this)
-    val rot = RotationUniform(this, "rotation", (0,0,0.001))
+    val vertColor = RGBAUniform(this, "vertColor")
+    val position = PositionUniform(this, "position", (0,0,0))
+    val rotation = RotationUniform(this, "rotation", (0,0,0))
 
 }

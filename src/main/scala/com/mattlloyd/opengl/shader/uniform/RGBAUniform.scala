@@ -7,7 +7,7 @@ import com.mattlloyd.opengl.shader.{ShaderProgram, Shaded, Shader}
 object RGBAUniform {
     def apply(shader:ShaderProgram, name:String, defaultColour:(Double, Double, Double, Double) = defaultColour) = new RGBAUniform(shader, name, defaultColour)
     //247 G: 148 B: 29
-    val defaultColour = (247/255., 148/255., 29/255., 1.0)
+    val defaultColour = (1.0, 1.0, 1.0, 1.0)
 }
 class RGBAUniform(shader:ShaderProgram, name:String, default:(Double, Double, Double, Double) = RGBAUniform.defaultColour) extends DoubleTuple4Uniform(shader, name, default) {
 

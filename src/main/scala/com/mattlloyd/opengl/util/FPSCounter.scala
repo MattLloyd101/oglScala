@@ -10,22 +10,21 @@ object FPSCounter {
     var lastTime = Platform.currentTime
     var tickIndex = 0
     var tickSum = 0.0
-    var msToRenderLastFrame = 0:Long
-    val tickList = mutable.MutableList.fill(MAX_SAMPLES)(0:Long)
+    var msToRenderLastFrame = 0: Long
+    val tickList = mutable.MutableList.fill(MAX_SAMPLES)(0: Long)
 
-    def avgMsToRenderFrame = tickSum/MAX_SAMPLES
+    def avgMsToRenderFrame = tickSum / MAX_SAMPLES
 
     def fps = 1000.0 / avgMsToRenderFrame
 
-    def update
-    {
+    def update {
         msToRenderLastFrame = Platform.currentTime - lastTime
         tickSum -= tickList(tickIndex)
         tickSum += msToRenderLastFrame
         tickList(tickIndex) = msToRenderLastFrame
         tickIndex += 1
-        if(tickIndex == MAX_SAMPLES)
-            tickIndex=0;
+        if (tickIndex == MAX_SAMPLES)
+            tickIndex = 0
 
         lastTime = Platform.currentTime
     }
