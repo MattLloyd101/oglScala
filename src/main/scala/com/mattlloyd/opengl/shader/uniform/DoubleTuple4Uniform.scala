@@ -11,6 +11,7 @@ class DoubleTuple4Uniform(shader:ShaderProgram, name:String, defaultValue:(Doubl
 
     def flush {
         if(buffUpdated) {
+
             val (fst, snd, trd, fth) = value
             __internalBuff.clear()
             __internalBuff.put(fst.toFloat)

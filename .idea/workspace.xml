@@ -2,26 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d3bda07-9c76-4016-b400-5e5b25bdba22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/examples/shader/basic/BasicMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/examples/shader/basic/BasicMain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/examples/shader/basic/shader/BasicShader.scala" afterPath="$PROJECT_DIR$/src/main/scala/examples/shader/basic/shader/BasicShader.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/examples/shader/basic/Box.scala" afterPath="$PROJECT_DIR$/src/main/scala/examples/shader/basic/Box.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/util/FPSCounter.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/util/FPSCounter.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/RGBAUniform.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/RGBAUniform.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/ShaderProgram.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/ShaderProgram.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/DoubleTuple4Uniform.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/DoubleTuple4Uniform.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala" afterPath="$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl" afterPath="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oglScala.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360678549687" ignored="false" />
+    <file path="/Dummy.txt" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1361458177201" ignored="false" />
     <file path="/fragment.java" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360690184916" ignored="false" />
     <file path="/BasicShader.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360680454387" ignored="false" />
     <file path="/Box.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360687566536" ignored="false" />
     <file path="/BasicMain.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360681791947" ignored="false" />
     <file path="/ShaderProgram.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360681681163" ignored="false" />
-    <file path="/basic.frag.glsl" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360687662041" ignored="false" />
+    <file path="/basic.frag.glsl" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1361462611156" ignored="false" />
     <file path="/a.dummy" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360690156749" ignored="false" />
     <file path="/TestingMain.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360690154134" ignored="false" />
     <file path="/TestingObj.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360688920120" ignored="false" />
+    <file path="/DoubleTuple4Uniform.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1361458642117" ignored="false" />
+    <file path="/AbstractUniform.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1361458832896" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,28 +79,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RotationUniform.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/RotationUniform.scala">
+      <file leaf-file-name="TestingShader.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="165" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
+            <state line="13" column="65" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoubleTuple3Uniform.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/DoubleTuple3Uniform.scala">
+      <file leaf-file-name="RGBAUniform.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/RGBAUniform.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="117" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+            <state line="6" column="7" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tuple3Uniform.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Tuple3Uniform.scala">
+      <file leaf-file-name="DoubleTuple4Uniform.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/DoubleTuple4Uniform.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="121" selection-start="301" selection-end="302" vertical-scroll-proportion="0.0">
+            <state line="15" column="34" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tuple4Uniform.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Tuple4Uniform.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="127" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,7 +118,43 @@
       <file leaf-file-name="Uniform.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Uniform.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="52" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+            <state line="9" column="133" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractUniform.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/AbstractUniform.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicShader.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/basic/shader/BasicShader.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="6" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestingMain.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingMain.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="36" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.frag.glsl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="523" selection-end="659" vertical-scroll-proportion="0.73473686">
               <folding />
             </state>
           </provider>
@@ -120,57 +164,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.vert.glsl">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="32" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Box.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/basic/Box.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="251" selection-end="763" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#31#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestingShader.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestingMain.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingMain.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#66#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestingObj.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingObj.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.41538462">
-              <folding>
-                <element signature="e#33#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicMain.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/basic/BasicMain.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="51" selection-start="0" selection-end="2321" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -199,13 +192,15 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/util/FPSCounter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/ShaderProgram.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/examples/shader/basic/BasicMain.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl" />
         <option value="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.vert.glsl" />
         <option value="$PROJECT_DIR$/src/main/scala/examples/shader/basic/shader/BasicShader.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/examples/shader/basic/Box.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingMain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingObj.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/AbstractUniform.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/DoubleTuple4Uniform.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl" />
       </list>
     </option>
   </component>
@@ -235,7 +230,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -251,7 +246,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -586,6 +580,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mattlloyd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opengl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mattlloyd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opengl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -676,6 +742,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -692,9 +759,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -746,7 +813,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="oglScala" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -850,15 +923,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -867,10 +939,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23806609" sideWeight="0.80207133" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19792865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23806609" sideWeight="0.6006904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39930955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -935,72 +1008,58 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/data/resources/ShaderResource.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/FragmentShader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+        <state line="7" column="74" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/lwjgl/lwjgl/lwjgl/2.8.2/lwjgl-2.8.2.jar!/org/lwjgl/opengl/GL11.class">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/util/signal/Signal.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="28" selection-start="2038" selection-end="2038" vertical-scroll-proportion="-6.96">
+        <state line="6" column="7" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/Shaded.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/Shader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+        <state line="25" column="25" selection-start="790" selection-end="791" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/ShaderProgram.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="70" selection-end="87" vertical-scroll-proportion="0.0">
+        <state line="41" column="26" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/PositionUniform.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2-sources.jar!/scala/Predef.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+        <state line="249" column="6" selection-start="10422" selection-end="10422" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/basic/shader/BasicShader.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/lwjgl/lwjgl/lwjgl/2.8.2/lwjgl-2.8.2.jar!/org/lwjgl/opengl/ARBShaderObjects.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/RotationUniform.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="165" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/DoubleTuple3Uniform.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="117" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Tuple3Uniform.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="121" selection-start="301" selection-end="302" vertical-scroll-proportion="0.0">
+        <state line="140" column="23" selection-start="6273" selection-end="6273" vertical-scroll-proportion="-8.48">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Uniform.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="52" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+        <state line="9" column="133" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/RGBAUniform.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="7" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1014,42 +1073,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+        <state line="13" column="65" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/basic/BasicMain.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Tuple4Uniform.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="51" selection-start="0" selection-end="2321" vertical-scroll-proportion="0.0">
+        <state line="8" column="127" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/basic/Box.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/DoubleTuple4Uniform.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="251" selection-end="763" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#31#67#0" expanded="true" />
-          </folding>
+        <state line="15" column="34" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/basic/shader/BasicShader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/AbstractUniform.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#66#84#0" expanded="true" />
-          </folding>
+        <state line="51" column="36" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingObj.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.41538462">
-          <folding>
-            <element signature="e#33#94#0" expanded="true" />
-          </folding>
+        <state line="29" column="0" selection-start="523" selection-end="659" vertical-scroll-proportion="0.73473686">
+          <folding />
         </state>
       </provider>
     </entry>
