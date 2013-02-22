@@ -9,7 +9,7 @@ import scala.Some
 class TestingShader extends ShaderProgram {
 
     override lazy val vertShader = Some(new VertexShader("target/classes/examples/shader/basic/shaders/basic.vert.glsl"))
-    override lazy val fragShader = Some(new FragmentShader("target/classes/examples/shader/basic/shaders/basic.frag.glsl"))
+    override lazy val fragShader = Some(new FragmentShader("target/classes/examples/shader/basic/shaders/complex.frag.glsl"))
 
     val vertColor = RGBAUniform(this, "vertColor", (1.0, 1.0, 1.0, 1.0))
     val position = PositionUniform(this, "position", (0,0,0))
