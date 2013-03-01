@@ -1,17 +1,11 @@
 package com.mattlloyd.opengl.shader
 
-import com.mattlloyd.util.signal.Signal
-import uniform.Uniform
-import io.Source
-import org.lwjgl.opengl.ARBShaderObjects._
-import org.lwjgl.opengl.GL11._
-import org.lwjgl.opengl.{ARBFragmentShader, ARBVertexShader}
-import com.mattlloyd.opengl.{Renderable, Initable}
+import com.mattlloyd.opengl.Renderable
 
 
 
 trait Shaded extends ShaderParameters {
-    self: Renderable[_] =>
+    self: Renderable[_, _] =>
 
     val shaderProgram:ShaderProgram
 

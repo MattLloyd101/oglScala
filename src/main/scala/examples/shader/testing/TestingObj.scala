@@ -5,22 +5,22 @@ import com.mattlloyd.opengl.shader.Shaded
 import org.lwjgl.opengl.GL11._
 import shader.TestingShader
 
-class TestingObj extends Renderable[Unit] with Initable[Unit] with Updatable[Unit] with Shaded {
+class TestingObj extends Renderable[Unit, Unit] with Initable[Unit, Unit] with Updatable[Unit, Unit] with Shaded {
 
     lazy val shaderProgram = new TestingShader
 
     val pos = shaderProgram.position
     val rot = shaderProgram.rotation
 
-    def init = {
+    def _init(a:Unit) = {
 
     }
 
-    def update(ms: Long) {
+    def _update(a: Unit) {
 
     }
 
-    def render {
+    def _render(a:Unit) {
         glLoadIdentity
         glBegin(GL_QUADS)
         glVertex3f(-1.0f, 1.0f, 0.0f)

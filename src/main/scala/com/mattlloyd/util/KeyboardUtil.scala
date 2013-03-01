@@ -14,7 +14,7 @@ object KeyboardUtil {
 
     type KeyValue = Int
     type KeyValueMapping = Map[KeyValue, KeyState.KeyState]
-    type Key = String
+    type Key = Int
     type KeyboardState = Map[Key, KeyState.KeyState]
     type KeyEvent = (Key, KeyState.KeyState, KeyboardState)
     val onKeyChange = Signal[KeyEvent]()
@@ -42,9 +42,7 @@ object KeyboardUtil {
         Keyboard.KEY_HOME, Keyboard.KEY_UP, Keyboard.KEY_PRIOR, Keyboard.KEY_LEFT, Keyboard.KEY_RIGHT,
         Keyboard.KEY_END, Keyboard.KEY_DOWN, Keyboard.KEY_NEXT, Keyboard.KEY_INSERT, Keyboard.KEY_DELETE,
         Keyboard.KEY_LMETA, Keyboard.KEY_RMETA, Keyboard.KEY_APPS,
-        Keyboard.KEY_POWER, Keyboard.KEY_SLEEP) map {
-        Keyboard.getKeyName _
-    }
+        Keyboard.KEY_POWER, Keyboard.KEY_SLEEP)
 
     var keyboardState: KeyboardState = Map[Key, KeyState.KeyState](allKeys.zip(Stream.continually(KeyState.KEY_UP)): _*)
 
@@ -54,7 +52,7 @@ object KeyboardUtil {
 
         allKeys foreach {
             key =>
-                val keyState = if (Keyboard.isKeyDown(Keyboard.getKeyIndex(key))) KeyState.KEY_DOWN else KeyState.KEY_UP
+                val keyState = if (Keyboard.isKeyDown(key)) KeyState.KEY_DOWN else KeyState.KEY_UP
                 (keyboardState(key), keyState) match {
                     case (KeyState.KEY_DOWN, KeyState.KEY_UP) =>
                         keyEvents = (key, KeyState.KEY_UP) :: keyEvents

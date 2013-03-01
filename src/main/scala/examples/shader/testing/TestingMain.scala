@@ -26,7 +26,7 @@ object TestingMain {
     def render {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
         glLoadIdentity
-        obj.runRender
+        obj.render()
     }
 
     def init {
@@ -60,17 +60,6 @@ object TestingMain {
         //        glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST)
 
         obj = new TestingObj
-
-        KeyboardUtil.onKeyChange.add("Box Handler") {
-            case ("UP", KeyState.KEY_DOWN, _) =>
-            //box.pos.y += 0.01
-            case ("DOWN", KeyState.KEY_DOWN, _) =>
-            //box.pos.y = box.pos.y - 0.01
-            case ("LEFT", KeyState.KEY_DOWN, _) =>
-            //    box.pos.x = box.pos.x - 0.01
-            case ("RIGHT", KeyState.KEY_DOWN, _) =>
-            //    box.pos.x += 0.01
-        }
     }
 
     def main(args: Array[String]) {

@@ -18,8 +18,7 @@ class ShaderProgram extends ShaderParameters {
     lazy val uniforms: List[AbstractUniform] =
         (this.getClass.getMethods.filter {
             f => AbstractUniform.isUniformField(f)
-        }
-            map {
+        } map {
             m => m.invoke(this).asInstanceOf[AbstractUniform]
         }).toList
 
@@ -47,12 +46,15 @@ class ShaderProgram extends ShaderParameters {
 
 
     def validateShader(shaderId: Int) = {
+        preValidate()
         (parami(shaderId, GL_OBJECT_LINK_STATUS_ARB), parami(shaderId, GL_OBJECT_VALIDATE_STATUS_ARB)) match {
             case (GL_FALSE, GL_FALSE) => throw ShaderError(shaderId, "Unable to link or validate shader at initShader")
             case (GL_FALSE, _) => throw ShaderError(shaderId, "Unable to link shader at initShader")
             case (_, GL_FALSE) => throw ShaderError(shaderId, "Unable to validate shader at initShader")
             case (_, _) => shaderId
         }
+        postValidate()
+        shaderId
     }
 
     def linkShader(shaderId: Int) {

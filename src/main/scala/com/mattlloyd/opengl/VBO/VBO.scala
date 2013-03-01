@@ -22,9 +22,9 @@ object VAOAccessType extends Enumeration {
     val DYNAMIC_READ = Value(GL_DYNAMIC_READ)
     val DYNAMIC_COPY = Value(GL_DYNAMIC_COPY)
 }
-abstract class VBO extends Initable[Int] {
+abstract class VBO extends Initable[Unit, Int] {
 
-    lazy val id = runInit
+    lazy val id = init()
 
     lazy val vaoId = initVAO
 
@@ -55,7 +55,7 @@ abstract class VBO extends Initable[Int] {
         iboId
     }
 
-    def init = {
+    def _init = {
         // force VAO to be created.
         vaoId
 

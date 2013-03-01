@@ -20,7 +20,7 @@ object ShaderType extends Enumeration {
     val Geometry = Value("Geometry")
     val Fragment = Value("Fragment")
 }
-trait Shader extends ShaderParameters with Initable[Int] {
+trait Shader extends ShaderParameters with Initable[Unit, Int] {
 
     val preAttach = Signal[Unit]()
     val postAttach = Signal[Unit]()
@@ -33,9 +33,9 @@ trait Shader extends ShaderParameters with Initable[Int] {
 
     val shaderTypeID:Int
 
-    lazy val shaderId = runInit
+    lazy val shaderId = init()
 
-    def init = {
+    def _init(arg:Unit) = {
         glCreateShaderObjectARB(shaderTypeID) match {
             case 0 => throw ShaderError(0, "Unable to create "+shaderType+" shader program at glCreateShaderObjectARB")
             case shaderId => {

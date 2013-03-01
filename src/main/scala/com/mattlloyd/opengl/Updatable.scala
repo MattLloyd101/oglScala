@@ -3,16 +3,17 @@ package com.mattlloyd.opengl
 import com.mattlloyd.util.signal.Signal
 
 
-trait Updatable[T] {
+trait Updatable[Arg, T] {
 
-    val preUpdate = Signal[Long]()
+    type updateType = Arg
+    val preUpdate = Signal[Arg]()
     val postUpdate = Signal[T]()
 
-    def update(ms:Long):T
+    protected def _update(arg: Arg): T
 
-    def runUpdate(ms:Long) = {
-        preUpdate(ms)
-        val ret = update(ms)
+    def update(arg: Arg) = {
+        preUpdate(arg)
+        val ret = _update(arg)
         postUpdate(ret)
         ret
     }

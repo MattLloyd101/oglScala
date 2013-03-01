@@ -3,16 +3,16 @@ package com.mattlloyd.opengl
 import com.mattlloyd.util.signal.Signal
 
 
-trait Initable[T] {
+trait Initable[Arg, T] {
 
-    val preInit = Signal[Unit]()
+    val preInit = Signal[Arg]()
     val postInit = Signal[T]()
 
-    def init:T
+    protected def _init(arg:Arg):T
 
-    def runInit = {
-        preInit()
-        val ret = init
+    def init(arg:Arg) = {
+        preInit(arg)
+        val ret = _init(arg)
         postInit(ret)
         ret
     }

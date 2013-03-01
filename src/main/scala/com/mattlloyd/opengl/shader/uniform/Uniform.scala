@@ -25,7 +25,7 @@ abstract class Uniform[Internal <: Buffer, External](parentShader: ShaderProgram
 
     def setRaw(newValue: Internal):Uniform[Internal, External] = {
         __internalBuff = newValue
-        // bypasses the update method if false.
+        // bypasses the _update method if false.
         buffUpdated = false
         this
     }

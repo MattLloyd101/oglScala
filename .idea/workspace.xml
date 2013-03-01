@@ -2,26 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d3bda07-9c76-4016-b400-5e5b25bdba22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala" afterPath="$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl" afterPath="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Initable.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Initable.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/util/KeyboardUtil.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/util/KeyboardUtil.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Renderable.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Renderable.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/Shaded.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/Shaded.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/Shader.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/Shader.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/ShaderProgram.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/ShaderProgram.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Uniform.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Uniform.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Updatable.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Updatable.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/VBO/VBO.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/VBO/VBO.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/VBO/VBOObject.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/VBO/VBOObject.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/complex.frag.glsl" afterPath="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/complex.frag.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oglScala.iml" afterPath="$PROJECT_DIR$/oglScala.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oglScala.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1361544736015" ignored="false" />
-    <file path="/fragment.java" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360690184916" ignored="false" />
+    <file path="/Dummy.txt" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362131653937" ignored="false" />
+    <file path="/fragment.java" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362140601988" ignored="false" />
     <file path="/BasicShader.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360680454387" ignored="false" />
-    <file path="/Box.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360687566536" ignored="false" />
-    <file path="/BasicMain.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360681791947" ignored="false" />
-    <file path="/ShaderProgram.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360681681163" ignored="false" />
+    <file path="/Box.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362153050687" ignored="false" />
+    <file path="/BasicMain.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362147144597" ignored="false" />
+    <file path="/ShaderProgram.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362146728520" ignored="false" />
     <file path="/basic.frag.glsl" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1361548774583" ignored="false" />
-    <file path="/a.dummy" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360690156749" ignored="false" />
+    <file path="/a.dummy" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362148372093" ignored="false" />
     <file path="/TestingMain.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360690154134" ignored="false" />
-    <file path="/TestingObj.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1360688920120" ignored="false" />
+    <file path="/TestingObj.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362147745035" ignored="false" />
     <file path="/DoubleTuple4Uniform.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1361458642117" ignored="false" />
     <file path="/AbstractUniform.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1361458832896" ignored="false" />
     <file path="/TestingShader.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1361549369708" ignored="false" />
     <file path="/complex.frag.glsl" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1361552133673" ignored="false" />
+    <file path="/Main.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362155202640" ignored="false" />
+    <file path="/KeyboardUtil.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362132346178" ignored="false" />
+    <file path="/ColourUtil.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362133282379" ignored="false" />
+    <file path="/Scala Console" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362133554887" ignored="false" />
+    <file path="/Colour.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362140463103" ignored="false" />
+    <file path="/Colours.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362133965619" ignored="false" />
+    <file path="/ColourShade.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362135829392" ignored="false" />
+    <file path="E:/workspace-leap/src/Main.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362140253480" ignored="false" />
+    <file path="/LeapController.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362141230628" ignored="false" />
+    <file path="/BoxShader.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362141620640" ignored="false" />
+    <file path="/box.frag.glsl" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362142257566" ignored="false" />
+    <file path="/Renderable.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362147477606" ignored="false" />
+    <file path="/Updatable.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362153040796" ignored="false" />
+    <file path="/Initable.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362147429544" ignored="false" />
+    <file path="/VBO.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362147524078" ignored="false" />
+    <file path="/VBOObject.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362147576500" ignored="false" />
+    <file path="/Shader.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362147592883" ignored="false" />
+    <file path="/SmoothBox.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362147728040" ignored="false" />
+    <file path="/Leaf.scala" changelist="1d3bda07-9c76-4016-b400-5e5b25bdba22" time="1362158391137" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,91 +109,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestingShader.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala">
+      <file leaf-file-name="Main.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/projects/mnLibrary/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+            <state line="75" column="10" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#28#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLU.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/lwjgl/lwjgl/lwjgl_util/2.8.2/lwjgl_util-2.8.2-sources.jar!/org/lwjgl/util/glu/GLU.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="279" column="23" selection-start="11925" selection-end="11925" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShaderProgram.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/ShaderProgram.scala">
+      <file leaf-file-name="Vector.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Vector.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="-3.6">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestingObj.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingObj.scala">
+      <file leaf-file-name="Vector.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2-sources.jar!/scala/collection/immutable/Vector.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="91" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+            <state line="62" column="22" selection-start="2893" selection-end="2893" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shaded.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/Shaded.scala">
+      <file leaf-file-name="Matrix.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Matrix.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="28" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="48" column="38" selection-start="1913" selection-end="1913" vertical-scroll-proportion="-8.08">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoubleTuple4Uniform.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/DoubleTuple4Uniform.scala">
+      <file leaf-file-name="Box.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/projects/mnLibrary/objects/Box.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#36#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leaf.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/projects/mnLibrary/objects/Leaf.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="29" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.72136223">
+              <folding>
+                <element signature="e#36#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Updatable.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Updatable.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="25" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tuple4Uniform.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Tuple4Uniform.scala">
+      <file leaf-file-name="Controller.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Controller.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="127" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+            <state line="29" column="34" selection-start="1025" selection-end="1025" vertical-scroll-proportion="-5.24">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Uniform.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Uniform.scala">
+      <file leaf-file-name="Frame.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Frame.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="133" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestingMain.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingMain.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="24" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic.frag.glsl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="29" selection-start="1405" selection-end="1405" vertical-scroll-proportion="-6.48">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="complex.frag.glsl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/complex.frag.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="0" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.7444795">
+            <state line="6" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="-0.72">
               <folding />
             </state>
           </provider>
@@ -189,20 +224,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/RGBAUniform.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/util/FPSCounter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/ShaderProgram.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/examples/shader/basic/BasicMain.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.vert.glsl" />
-        <option value="$PROJECT_DIR$/src/main/scala/examples/shader/basic/shader/BasicShader.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Initable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/VBO/VBO.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/VBO/VBOObject.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/Shaded.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/examples/shader/basic/Box.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/examples/shader/fxaa/SmoothBox.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingObj.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/AbstractUniform.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/DoubleTuple4Uniform.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl" />
-        <option value="$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/complex.frag.glsl" />
+        <option value="$PROJECT_DIR$/src/main/scala/examples/shader/basic/BasicMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/examples/shader/fxaa/FXAAMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/Shader.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Renderable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Updatable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/projects/mnLibrary/objects/Box.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/projects/mnLibrary/Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/projects/mnLibrary/objects/Leaf.scala" />
       </list>
     </option>
   </component>
@@ -248,6 +285,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,20 +321,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -306,53 +330,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
+              <option name="myItemId" value="mnLibrary" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,19 +360,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
+              <option name="myItemId" value="mnLibrary" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tess" />
+              <option name="myItemId" value="shaders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Main.scala" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mnLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mnLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeapController.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,151 +466,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fxaa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oglScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mattlloyd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -594,7 +508,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="opengl" />
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="signal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Signal.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mattlloyd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colour" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,11 +588,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="opengl" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
+              <option name="myItemId" value="colour" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Colour.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mattlloyd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -658,15 +652,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tess" />
+              <option name="myItemId" value="mnLibrary" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -695,12 +685,18 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="oglScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oglScala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
+              <option name="myItemId" value="natives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -714,82 +710,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="natives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shaders" />
+              <option name="myItemId" value="leap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/natives/leap/LeapJava.jar!/" />
     <property name="project.structure.side.proportion" value="0.40924856" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="examples.shader.testing.shader" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\matthewl\Documents\GitHub\oglScala\src\main\resources\projects\mnLibrary\shaders" />
       <recent name="C:\Users\matthewl\Documents\GitHub\oglScala\src\main\resources\examples\shader\basic\shaders" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestingMain">
-    <configuration default="false" name="BasicMain" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="examples.shader.basic.BasicMain" />
-      <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;C:\Users\matthewl\Documents\GitHub\oglScala\target\libs&quot;" />
-      <option name="PROGRAM_PARAMETERS" value="-Djava.library.path=&quot;C:\Users\matthewl\Documents\GitHub\oglScala\target\libs&quot;" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="oglScala" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="FXAAMain" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="examples.shader.fxaa.FXAAMain" />
       <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;C:\Users\matthewl\Documents\GitHub\oglScala\target\libs&quot;" />
@@ -826,6 +787,29 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="projects.mnLibrary.Main" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;C:\Users\matthewl\Documents\GitHub\oglScala\natives\leap\x64;C:\Users\matthewl\Documents\GitHub\oglScala\natives\lwjgl\lwjgl-platform-2.8.2-natives-windows&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="-Djava.library.path=&quot;C:\Users\matthewl\Documents\GitHub\oglScala\natives\leap\x64;C:\Users\matthewl\Documents\GitHub\oglScala\natives\lwjgl\lwjgl-platform-2.8.2-natives-windows&quot;" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="oglScala" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
+      <module name="" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="consoleArgs" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -883,16 +867,27 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.BasicMain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FXAAMain" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestingMain" />
+    <configuration default="false" name="Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
+      <module name="oglScala" />
+      <setting name="vmparams4" value="" />
+      <setting name="consoleArgs" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.FXAAMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestingMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Scala Console.Console" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestingMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BasicMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FXAAMain" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestingMain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BasicMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FXAAMain" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -934,6 +929,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -944,11 +940,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23806609" sideWeight="0.7836594" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21634062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23806609" sideWeight="0.7733027" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22669736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1013,109 +1008,123 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2-sources.jar!/scala/Predef.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/projects/mnLibrary/leap/LeapController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="6" selection-start="10422" selection-end="10422" vertical-scroll-proportion="0.0" />
+        <state line="18" column="8" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#33#97#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/lwjgl/lwjgl/lwjgl/2.8.2/lwjgl-2.8.2.jar!/org/lwjgl/opengl/ARBShaderObjects.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2-sources.jar!/scala/Double.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="23" selection-start="6273" selection-end="6273" vertical-scroll-proportion="-8.48" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/RGBAUniform.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+        <state line="18" column="12" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.vert.glsl">
+    <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Interface.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Tuple4Uniform.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="127" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="-3.6">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/DoubleTuple4Uniform.scala">
+    <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Finger.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+        <state line="6" column="52" selection-start="201" selection-end="201" vertical-scroll-proportion="-3.6">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/basic/shader/BasicShader.scala">
+    <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Hand.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="253" selection-end="253" vertical-scroll-proportion="0.14195584">
+        <state line="29" column="32" selection-start="939" selection-end="939" vertical-scroll-proportion="-4.72">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/AbstractUniform.scala">
+    <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Pointable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="754" selection-end="754" vertical-scroll-proportion="0.62460566">
+        <state line="6" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.72">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/uniform/Uniform.scala">
+    <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Frame.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="133" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="-0.72">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/basic.frag.glsl">
+    <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Controller.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="29" selection-start="1405" selection-end="1405" vertical-scroll-proportion="-6.48">
+        <state line="29" column="34" selection-start="1025" selection-end="1025" vertical-scroll-proportion="-5.24">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/shader/TestingShader.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/Updatable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+        <state line="7" column="25" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingMain.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2-sources.jar!/scala/collection/immutable/Vector.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="24" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.0">
+        <state line="62" column="22" selection-start="2893" selection-end="2893" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/examples/shader/testing/TestingObj.scala">
+    <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Vector.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="91" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="-3.6">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/Shaded.scala">
+    <entry file="jar://$PROJECT_DIR$/natives/leap/LeapJava.jar!/com/leapmotion/leap/Matrix.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+        <state line="48" column="38" selection-start="1913" selection-end="1913" vertical-scroll-proportion="-8.08">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/mattlloyd/opengl/shader/ShaderProgram.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/projects/mnLibrary/objects/Box.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#36#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/lwjgl/lwjgl/lwjgl_util/2.8.2/lwjgl_util-2.8.2-sources.jar!/org/lwjgl/util/glu/GLU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="279" column="23" selection-start="11925" selection-end="11925" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/examples/shader/basic/shaders/complex.frag.glsl">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/projects/mnLibrary/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.7444795">
-          <folding />
+        <state line="75" column="10" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#28#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/projects/mnLibrary/objects/Leaf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="29" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.72136223">
+          <folding>
+            <element signature="e#36#97#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,7 +1208,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.lwjgl.lwjgl:lwjgl:2.8.2</last-edited>
+          <last-edited>LeapJava</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

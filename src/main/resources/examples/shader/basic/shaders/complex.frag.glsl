@@ -96,7 +96,7 @@ float e(vec3 c)
     float a = sdSphere(c, .5);
     float b = sdSphere(c - vec3(.4,0,0), .5);
     float dd = smoothcurve(a-b);
-    return DE(c);//mix(a, b, dd);
+    return mix(a, b, dd);
 }
 
 
@@ -116,9 +116,9 @@ void main(void)
     // light (who needs a normal?)
     //v+=-e(o);//*vec3(0.4,0.7,1.0);
 
-    vec3 n = abs(normalize(vec3(e(o+g.x)-e(o-g.x),
+    vec3 n = normalize(vec3(e(o+g.x)-e(o-g.x),
                             e(o+g.y)-e(o-g.y),
-                            e(o+g.z)-e(o-g.z))));
+                            e(o+g.z)-e(o-g.z)));
 
     PointLight light;
     light.position = vec3(0.1, 1.0, 0.0);
